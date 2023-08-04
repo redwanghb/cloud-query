@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.2.1](https://github.com/cloudquery/cloudquery/compare/plugins-destination-bigquery-v3.2.0...plugins-destination-bigquery-v3.2.1) (2023-08-04)
+
+
+### Bug Fixes
+
+* **deps:** Update github.com/apache/arrow/go/v13 digest to 112f949 ([#12659](https://github.com/cloudquery/cloudquery/issues/12659)) ([48d73a9](https://github.com/cloudquery/cloudquery/commit/48d73a93e678994f43171c363f5a75c29547b0b9))
+* **deps:** Update github.com/cloudquery/arrow/go/v13 digest to 3452eb0 ([#12595](https://github.com/cloudquery/cloudquery/issues/12595)) ([c1c0949](https://github.com/cloudquery/cloudquery/commit/c1c09490b17f2e64435e05d745890cdb8b22310d))
+* **deps:** Update module github.com/cloudquery/plugin-sdk/v4 to v4.2.4 ([#12725](https://github.com/cloudquery/cloudquery/issues/12725)) ([42e472f](https://github.com/cloudquery/cloudquery/commit/42e472f6be7eacd78375ded37bea9352c8afa890))
+
 ## [3.2.0](https://github.com/cloudquery/cloudquery/compare/plugins-destination-bigquery-v3.1.1...plugins-destination-bigquery-v3.2.0) (2023-07-25)
 
 
