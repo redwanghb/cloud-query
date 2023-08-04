@@ -1,5 +1,15 @@
 # Changelog
 
+## [3.3.3](https://github.com/cloudquery/cloudquery/compare/plugins-destination-clickhouse-v3.3.2...plugins-destination-clickhouse-v3.3.3) (2023-08-04)
+
+
+### Bug Fixes
+
+* **ci:** Return structs & maps tests ([#12682](https://github.com/cloudquery/cloudquery/issues/12682)) ([8694a4d](https://github.com/cloudquery/cloudquery/commit/8694a4d50318e1ed88754b00092c8394dce44536))
+* **deps:** Update github.com/apache/arrow/go/v13 digest to 112f949 ([#12659](https://github.com/cloudquery/cloudquery/issues/12659)) ([48d73a9](https://github.com/cloudquery/cloudquery/commit/48d73a93e678994f43171c363f5a75c29547b0b9))
+* **deps:** Update github.com/cloudquery/arrow/go/v13 digest to 3452eb0 ([#12595](https://github.com/cloudquery/cloudquery/issues/12595)) ([c1c0949](https://github.com/cloudquery/cloudquery/commit/c1c09490b17f2e64435e05d745890cdb8b22310d))
+* **deps:** Update module github.com/cloudquery/plugin-sdk/v4 to v4.2.5 ([#12731](https://github.com/cloudquery/cloudquery/issues/12731)) ([d267239](https://github.com/cloudquery/cloudquery/commit/d267239aa3aca5f94bd36a8db1ec0d9f7dc0865f))
+
 ## [3.3.2](https://github.com/cloudquery/cloudquery/compare/plugins-destination-clickhouse-v3.3.1...plugins-destination-clickhouse-v3.3.2) (2023-07-25)
 
 
