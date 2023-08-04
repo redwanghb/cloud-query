@@ -1,5 +1,17 @@
 # Changelog
 
+## [5.0.3](https://github.com/cloudquery/cloudquery/compare/plugins-source-k8s-v5.0.2...plugins-source-k8s-v5.0.3) (2023-08-04)
+
+
+### Bug Fixes
+
+* **deps:** Update github.com/apache/arrow/go/v13 digest to 112f949 ([#12659](https://github.com/cloudquery/cloudquery/issues/12659)) ([48d73a9](https://github.com/cloudquery/cloudquery/commit/48d73a93e678994f43171c363f5a75c29547b0b9))
+* **deps:** Update github.com/cloudquery/arrow/go/v13 digest to 3452eb0 ([#12595](https://github.com/cloudquery/cloudquery/issues/12595)) ([c1c0949](https://github.com/cloudquery/cloudquery/commit/c1c09490b17f2e64435e05d745890cdb8b22310d))
+* **deps:** Update github.com/cockroachdb/cockroachdb-parser digest to 302c9ad ([#12664](https://github.com/cloudquery/cloudquery/issues/12664)) ([924509c](https://github.com/cloudquery/cloudquery/commit/924509c409fcf008c93f67fc6a0c5dcf4b2bddc5))
+* **deps:** Update github.com/petermattis/goid digest to 80aa455 ([#12669](https://github.com/cloudquery/cloudquery/issues/12669)) ([a140396](https://github.com/cloudquery/cloudquery/commit/a140396153d62d3e68646d58a7749426aa2cc9fe))
+* **deps:** Update module github.com/cloudquery/plugin-sdk/v4 to v4.2.4 ([#12718](https://github.com/cloudquery/cloudquery/issues/12718)) ([f059a15](https://github.com/cloudquery/cloudquery/commit/f059a159a2ee406ab2b0a33792c244cd217025a6))
+* **deps:** Update module github.com/cloudquery/plugin-sdk/v4 to v4.2.5 ([#12731](https://github.com/cloudquery/cloudquery/issues/12731)) ([d267239](https://github.com/cloudquery/cloudquery/commit/d267239aa3aca5f94bd36a8db1ec0d9f7dc0865f))
+
 ## [5.0.2](https://github.com/cloudquery/cloudquery/compare/plugins-source-k8s-v5.0.1...plugins-source-k8s-v5.0.2) (2023-07-25)
 
 
