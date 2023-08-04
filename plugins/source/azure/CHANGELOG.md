@@ -8,6 +8,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [9.2.0](https://github.com/cloudquery/cloudquery/compare/plugins-source-azure-v9.1.0...plugins-source-azure-v9.2.0) (2023-08-04)
 
 
+### This Release has the Following Changes to Tables
+- Table `azure_role_management_policy_assignments` was added
+
 ### Features
 
 * **resources:** Add Role Management Policy Assignments ([#12557](https://github.com/cloudquery/cloudquery/issues/12557)) ([124d7f1](https://github.com/cloudquery/cloudquery/commit/124d7f10d7988aa4f7e1ad1167dd4cb7b51bc22c))
