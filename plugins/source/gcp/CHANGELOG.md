@@ -8,6 +8,45 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [9.4.3](https://github.com/cloudquery/cloudquery/compare/plugins-source-gcp-v9.4.2...plugins-source-gcp-v9.4.3) (2023-08-04)
 
 
+### This Release has the Following Changes to Tables
+- Table `gcp_aiplatform_datasets`: column added with name `data_item_count` and type `int64`
+- Table `gcp_aiplatform_featurestores`: column added with name `online_storage_ttl_days` and type `int64`
+- Table `gcp_aiplatform_models`: column added with name `pipeline_job` and type `utf8`
+- Table `gcp_aiplatform_pipeline_jobs`: column added with name `reserved_ip_ranges` and type `list<item: utf8, nullable>`
+- Table `gcp_aiplatform_tensorboards`: column added with name `is_default` and type `bool`
+- Table `gcp_batch_task_groups`: column added with name `scheduling_policy` and type `utf8`
+- Table `gcp_bigquery_tables`: column added with name `table_constraints` and type `json`
+- Table `gcp_clouddeploy_releases`: column added with name `deploy_parameters` and type `json`
+- Table `gcp_clouddeploy_targets`: column added with name `deploy_parameters` and type `json`
+- Table `gcp_cloudsupport_cases`: column added with name `contact_email` and type `utf8`
+- Table `gcp_compute_addresses`: column added with name `label_fingerprint` and type `utf8`
+- Table `gcp_compute_addresses`: column added with name `labels` and type `json`
+- Table `gcp_compute_backend_services`: column added with name `metadatas` and type `json`
+- Table `gcp_compute_disks`: column added with name `async_primary_disk` and type `json`
+- Table `gcp_compute_disks`: column added with name `async_secondary_disks` and type `json`
+- Table `gcp_compute_disks`: column added with name `provisioned_throughput` and type `int64`
+- Table `gcp_compute_disks`: column added with name `resource_status` and type `json`
+- Table `gcp_compute_disks`: column added with name `source_consistency_group_policy_id` and type `utf8`
+- Table `gcp_compute_disks`: column added with name `source_consistency_group_policy` and type `utf8`
+- Table `gcp_compute_forwarding_rules`: column added with name `allow_psc_global_access` and type `bool`
+- Table `gcp_compute_instances`: column added with name `instance_encryption_key` and type `json`
+- Table `gcp_compute_interconnects`: column added with name `label_fingerprint` and type `utf8`
+- Table `gcp_compute_interconnects`: column added with name `labels` and type `json`
+- Table `gcp_compute_interconnects`: column added with name `remote_location` and type `utf8`
+- Table `gcp_compute_target_http_proxies`: column added with name `http_keep_alive_timeout_sec` and type `int64`
+- Table `gcp_container_clusters`: column added with name `enable_k8s_beta_apis` and type `json`
+- Table `gcp_container_clusters`: column added with name `security_posture_config` and type `json`
+- Table `gcp_redis_instances`: column added with name `available_maintenance_versions` and type `list<item: utf8, nullable>`
+- Table `gcp_redis_instances`: column added with name `customer_managed_key` and type `utf8`
+- Table `gcp_redis_instances`: column added with name `maintenance_version` and type `utf8`
+- Table `gcp_redis_instances`: column added with name `persistence_config` and type `json`
+- Table `gcp_redis_instances`: column added with name `suspension_reasons` and type `list<item: int64, nullable>`
+- Table `gcp_run_services`: column added with name `custom_audiences` and type `list<item: utf8, nullable>`
+- Table `gcp_run_services`: column added with name `satisfies_pzs` and type `bool`
+- Table `gcp_videotranscoder_jobs`: column added with name `batch_mode_priority` and type `int64`
+- Table `gcp_videotranscoder_jobs`: column added with name `mode` and type `utf8`
+- Table `gcp_videotranscoder_jobs`: column added with name `optimization` and type `utf8`
+
 ### Bug Fixes
 
 * **deps:** Update module github.com/cloudquery/plugin-sdk/v4 to v4.2.4 ([#12725](https://github.com/cloudquery/cloudquery/issues/12725)) ([42e472f](https://github.com/cloudquery/cloudquery/commit/42e472f6be7eacd78375ded37bea9352c8afa890))
